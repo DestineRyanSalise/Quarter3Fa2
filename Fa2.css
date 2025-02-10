@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
 }
 
-.header {
+.title {
   background-color: rgba(34, 151, 197, 0.9);
   border: none;
   color: white;
@@ -18,7 +18,7 @@ body {
   border-radius: 3px;
 }
 
-.nav {
+.description {
   background-color: rgba(34, 151, 197, 0.9);
   border: none;
   color: white;
@@ -30,7 +30,7 @@ body {
   border-radius: 3px;
 }
 
-#myText, #myText2 {
+#number1, #number2 {
   background-color: rgba(255, 255, 255, 0.9);
   border: none;
   color: black;
@@ -42,10 +42,10 @@ body {
   border-radius: 3px;
 }
 
-.header:hover,
-.nav:hover,
-#myText:hover,
-#myText2:hover {
+.title:hover,
+.description:hover,
+#number1:hover,
+#number2:hover {
   transform: scale(1.02);
   transition-property: border, background-color, transform;
   transition-duration: 0.2s;
